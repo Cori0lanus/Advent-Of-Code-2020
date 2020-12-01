@@ -9,7 +9,7 @@ int* readInput(int length) {
 
     int* input = (int*)malloc(sizeof(int) * length);
 
-    fp = fopen("../../src/input_file.txt", "r");
+    fp = fopen("../../src/input_file_day_1.txt", "r");
 
     if (fp == NULL) {
         printf("Failed To Open File!\n");
